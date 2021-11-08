@@ -1,0 +1,404 @@
+body{
+	background: rgb(119,136,153);
+	text-align: center;
+}
+/*				Barra Lateral Esquerda					*/
+.lft-bar{
+	background: rgb(220, 220, 220);
+	position: fixed;
+	height: 93.5%;
+	width: 15%;
+	left: 0;
+	top: 6.5%;
+}
+.lft-bar button{
+	position: relative;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	height: 10%;
+	font-size: 1.1em;
+}
+.lft-bar button:hover{
+	background-color: rgb(192, 192, 192);
+}
+.lft-bar a{
+	background-color: green;
+	color: black;
+	text-decoration: none;
+}
+/*				Botão de Novo Trabalho					*/
+#new-work{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	font-size: 1.1em;
+	border-radius: 36px;
+}
+#plus-img{
+	position: absolute;
+	left: 10px;
+	top: 10%;
+	height: 80%;
+	width: 23%;
+}
+/*				Barra Lateral Direita					*/
+.rgt-bar{
+	background: rgb(220,220,220);
+	position: fixed;
+	height: 93.5%;
+	width: 10%;
+	right: 0;
+	top: 6.5%;
+}
+/*				Barra Lateral Superior					*/
+.up-bar{
+	background: rgb(192, 192, 192);
+	position: fixed;
+	width: 100%;
+	height: 6.5%;
+	left: 0;
+	top: 0;
+}
+/*				Botão do Perfil de Usuário					*/
+.profile-btn{
+	background: rgb(128, 128, 128);
+	position: fixed;
+	width: 12.5%;
+	height: 6.5%;
+	right: 0;
+}
+#user{
+	border: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 0;
+}
+#user:hover{
+	background: rgb(128, 128, 128);
+}
+#user-picture{
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 25%;
+	position: absolute;
+}
+.user-info{
+	position: absolute;
+	text-align: left;
+	top: 15%;
+	right: 0;
+	height: 70%;
+	width: 70%;
+}
+.dropdown-content{
+	display: none;
+	background: green;
+	position: fixed;
+	top: 6.5%;
+	width: 12.5%;
+	height: 9.5%;
+	right: 0;
+}
+.dropdown-content button{
+	position: relative;
+	height: 50%;
+	left: 0;
+	width: 100%;
+}
+/*				Título da Página Atual					*/
+.page-name{
+	background-color: rgb(112,128,144);
+	width: 75%;
+	height: 10%;
+	position: fixed;
+	top: 6.5%;
+	left: 15%;
+	font-size: 3em;
+}
+/*				Logo do Site					*/
+.logo{
+	width: 85%;
+	position: fixed;
+	font-size: 2em;
+	top: 0;
+	left: 1%;
+	text-align: left;
+}
+/*				Barra de Pesquisa					*/
+.search{
+	background: rgb(128, 128, 128);
+	top: 5%;
+	bottom: 5%;
+	right: 15%;
+	width: 20%;
+	height: 90%;
+	position: absolute;
+}
+#search-form{
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+#search-field{
+	position: absolute;
+	left: 0;
+	border: 0;
+	height: 97%;
+	width: 85%;
+	font-size: 1em;
+}
+#search-btn{
+	position: absolute;
+	right: 0;
+	border: 0;
+	height: 100%;
+	width: 15%;
+	background-image: url("img/icon.png");
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+#search-btn:hover{
+	background-color: rgb(128, 128, 128);
+}
+/*				Conteúdo da Página					*/
+.content{
+	top: 25.5%;
+	left: 15%;
+	right: 10%;
+	position: fixed;
+}
+/*				Lista de Amigos					*/
+.friend{
+	background: rgb(128, 128, 128);
+	position: relative;
+	width: 100%;
+	height: 8%;
+	margin-bottom: 2%;
+}
+.friend img{
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	left: 0;
+}
+.friend-info{
+	margin-top: 5%;
+	position: absolute;
+	right: 0;
+	height: 70%;
+	width: 60%;
+	font-size: 0.9em;
+	text-align: left;
+}
+#online-icon{
+	width: 10px;
+	height: 10px;
+	left: 0;
+	bottom: 0;
+}
+#friend-list{
+	font-size: 1em;
+	height: 1%;
+	margin-top: 0;
+	margin-bottom: 10%;"
+}
+
+/*				Tela de Cadastro					*/
+
+.register{
+	background: rgb(192, 192, 192);
+	position: fixed;
+	top: 10%;
+	right: 30%;
+	left: 30%;
+	width: 40%;
+	height: 80%;
+}
+.register form{
+	background: rgb(220, 220, 220);
+	position: absolute;
+	height: 80%;
+	top: 10%;
+	right: 10%;
+	left: 10%;
+}
+.register input{
+	width: 35%;
+	height: 8%;
+	position: relative;
+	margin-bottom: 1%;
+	border-radius: 5px;
+}
+.data-nascimento{
+	position: absolute;
+	margin-top: 10%;
+	width: 74%;
+	left: 13%;
+	height: 8%;
+}
+.data-nascimento select{
+	position: absolute;
+	border-radius: 5px;
+	background-color: white;
+	height: 100%;
+	border-radius: 5px;
+	left: 0;
+	width: 32%;
+}
+#register-btn{
+	position: absolute;
+	left: 35%; 
+	bottom: 5%;
+	width: 30%;
+	height: 10%;
+	align-content: center;
+	border-radius: 12px;
+	font-size: 1em;
+}
+#register-btn:hover{
+	background-color: rgb(220, 220, 220);
+}
+
+/*				Tela de Login					*/
+
+.login{
+	background: rgb(192, 192, 192);
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	right: 35%;
+	width: 30%;
+	height: 60%;
+}
+#login-form{
+	background: white;
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+#login-fields{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+}
+#input-name{
+	margin-top: 0;
+	position: relative;
+	left: 0;
+	height: 10%;
+	text-align: left;
+}
+#input-field{
+	margin-top: 0;
+	position: absolute;
+	left: 0;
+	height: 15%;
+	width: 97%;
+}
+#login-btn{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 30%;
+	height: 25%;
+	background: rgb(119,136,153);
+}
+#login-btn:hover{
+	background-color: white;
+}
+#login-img{
+	position: absolute; 
+	height: 30%; 
+	top: 5%; 
+	width: 30%;
+	left: 35%;
+}
+
+/*				Botão de Recuperação de Senha ou Cadastro				*/
+.recover-password{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.recover-password button{
+	border: none;
+	background: transparent;
+	font-size: 0.9em;
+}
+.recover-password button:hover{
+	text-decoration: underline;
+}
+/*		Botão de Retornar a tela de login (no cadastro)		*/
+#back-btn{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	text-decoration: none;
+	font-size: 1.1em;
+	color: black;
+}
+#back-btn:hover{
+	text-decoration: underline;
+}
+/*		Configuração da Main Page		*/
+.main-up-bar{
+	position: fixed;
+	background: rgb(192, 192, 192);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 10%;
+}
+.main-up-bar button{
+	position: absolute;
+	top: 10%;
+	width: 10%;
+	height: 80%;
+	font-size: 1.2em;
+}
+#main-register-btn{
+	right: 2%;
+}
+#main-login-btn{
+	background: transparent;
+	right: 13%;
+	border: none;
+}
+#main-login-btn:hover{
+	text-decoration: underline;
+}
+.site-intro{
+	position: fixed;
+	top: 20%;
+	left: 10%;
+	height: 70%;
+	width: 80%;
+	color: white;
+}
+.site-intro img{
+	position: absolute;
+	height: 100%;
+	width: 40%;
+	left: 0;
+}
+.site-intro-text-area{
+	position: absolute;
+	height: 100%;
+	width: 60%;
+	right: 0;
+}
+.site-intro-text{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	width: 80%;
+	height: 70%;
+	font-size: 1.3em;
+	text-align: justify;
+}

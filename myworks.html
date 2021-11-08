@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<title> Lealzitos Collab </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<!--					Início da Barra Esquerda					-->
+
+<div class="lft-bar"> 
+	<!-- Botão para criar um novo trabalho (upload) -->
+	<button id="new-work" onclick="newWork()">  <img id="plus-img" src="img/plus.png"> Novo <br> Trabalho </button> 
+	<!-- Botões que redirecionam às outras páginas -->
+	<a href="myworks.html"> <button> <i class="fa fa-user"></i> Meus <br> Trabalhos </button> </a>
+	<a href="shared.html"> <button> <i class="fa fa-folder"></i> Trabalhos<br>Compartilhados </button> </a>
+	<a href="favorites.html"> <button> <i class="fa fa-star"></i> Favoritos </button> </a>
+	<a href="trashcan.html"> <button> <i class="fa fa-trash"></i> Lixeira </button> </a>
+</div>
+
+<!--					Início da Barra Direita					-->
+
+<div class="rgt-bar">
+
+	<!--	Título da Barra de Amigos	-->
+	<p id="friend-list"> Amigos </p>
+
+	<!--	Amigo 1 	-->
+	<div class="friend"> 
+		<!-- Imagem do Amigo 1 -->
+		<img src="img/pp3.jpg"> 
+		<!-- Símbolo de online ou offline -->
+		<img id="online-icon" src="img/online-icon-100.png">
+		<!-- Informações do amigo -->
+		<div class="friend-info">
+			 Lealzitos <br> <!-- Nome do amigo -->
+			<i class="fa fa-square"></i> Trabalho 1 <!-- O que o amigo está fazendo --> 
+		</div>
+	</div>
+
+	<!--	Amigo 2 	-->
+	<div class="friend"> 
+		<!-- Imagem do Amigo 2 -->
+		<img src="img/pp2.jpg"> 
+		<!-- Símbolo de online ou offline -->
+		<img id="online-icon"  src="img/online-icon-100.png">
+		<!-- Informações do amigo -->
+		<div class="friend-info">
+			 Marcão <br> <!-- Nome do amigo -->
+			<i class="fa fa-square"></i> Trabalho 2 <!-- O que o amigo está fazendo -->
+		</div>
+	</div>
+
+	<!--	Amigo 3 	-->
+	<div class="friend"> 
+		<!-- Imagem do Amigo 3 -->
+		<img src="img/pp1.jpg">
+		<!-- Símbolo de online ou offline -->
+		<img id="online-icon"  src="img/offline-icon.png"> 
+		<!-- Informações do amigo -->
+		<div class="friend-info">
+			Filipe ADM <br> <!-- Nome do amigo -->
+			<i class="fa fa-square"></i> -- <!-- O que o amigo está fazendo -->
+		</div>
+	</div>
+
+</div>
+
+<!--				Conteúdo Principal da Página (campo azul escuro)				-->
+
+<!-- Título da página atual -->
+<div class="page-name">
+	Meus Trabalhos
+</div>
+
+<!-- Conteúdo da página atual -->
+<div class="content">
+	<p>
+		Aqui vai o conteúdo da página de fato
+	</p>	
+</div>
+
+<!--					Início da Barra Superior					-->
+
+<div class="up-bar">
+	<!-- Logo do site -->
+	<div class="logo">
+		Lealzitos Collab
+	</div>
+
+<!--	Barra de Pesquisa	-->
+	<div class="search">
+		<form id="search-form" action="/action_page.php">
+			<input id="search-field" type="text" placeholder="Pesquisa..." name="search">
+			<button id="search-btn" type="submit"></button>
+		</form>
+	</div>
+
+<!--	Menu do perfil do usuário	-->
+	<div class="profile-btn">
+		<button id="user" onclick="openProfileMenu()">
+			<img id="user-picture" src="img/profile-picture.png">
+			<div class="user-info">
+				<i class="fa fa-circle"></i> João Lucas <br>
+				<i class="fa fa-square"></i> Online 
+			</div>
+		</button>
+	</div>
+
+<!--	Menu de opções ao clicar no perfil do usuário	-->
+	<div id="dropdown" class="dropdown-content">
+		<button> Configurações </button>
+		<button> Sair </button>
+	</div>
+
+</div>
+
+<!--					Fim da Barra Superior					-->
+
+</body>
+</html>

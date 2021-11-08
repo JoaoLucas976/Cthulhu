@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<title> Lealzitos Collab </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<div class="login">
+	<!-- Logo acima do campo de login -->
+	<img id="login-img" src="img/logo.png">
+	<!-- Formulário de login / Campo cinza-->
+	<form id="login-form" action="login.php">
+		<!-- Campos do formulário / Campo branco -->
+		<div id="login-fields">
+			<!-- Campos do formulário -->
+			<p id="input-name" style="top: 0;"> Nome de Usuário </p>
+			<input id="input-field" style="top: 12%;" type="text" name="user">
+			<p id="input-name" style="top: 15%;"> Senha</p>
+			<input id="input-field" style="top: 46%;" type="text" name="password">
+			<input style="position: absolute;left: 0;top: 71%;" type="checkbox" name="remember">
+			<label style="position: absolute;left: 10%;top: 72%;" for="lembrar">Lembre-se</label>
+			<button id="login-btn"> Login </button>
+		</div>
+	</form>	
+	<p class="recover-password">
+		<a href="register.html"> <button> Cadastre-se </button></a>  |  
+		<button onclick="recoverPass()"> Esqueceu a senha ? </button>
+	</p>
+</div>
+
+</body>
+
+</html>
